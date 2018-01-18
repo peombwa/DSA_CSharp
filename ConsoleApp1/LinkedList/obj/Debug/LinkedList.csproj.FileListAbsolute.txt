@@ -1,0 +1,7 @@
+C:\code\DSA VS\ConsoleApp1\LinkedList\bin\Debug\LinkedList.exe.config
+C:\code\DSA VS\ConsoleApp1\LinkedList\bin\Debug\LinkedList.exe
+C:\code\DSA VS\ConsoleApp1\LinkedList\bin\Debug\LinkedList.pdb
+C:\code\DSA VS\ConsoleApp1\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+C:\code\DSA VS\ConsoleApp1\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+C:\code\DSA VS\ConsoleApp1\LinkedList\obj\Debug\LinkedList.exe
+C:\code\DSA VS\ConsoleApp1\LinkedList\obj\Debug\LinkedList.pdb
