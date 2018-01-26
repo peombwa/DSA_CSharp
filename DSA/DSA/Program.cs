@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinkedList
+namespace DSA
 {
-    class LinkedList
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
