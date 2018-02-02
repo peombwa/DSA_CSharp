@@ -108,9 +108,7 @@ namespace DSA.LikedList
             }
         }
         #endregion
-
-
-
+        
         #region ICollection
         public int Count { get; private set; }
 
@@ -178,7 +176,45 @@ namespace DSA.LikedList
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            LinkedListNode<T> previous = null;
+            LinkedListNode<T> current = Head;
+
+            // CASES
+            // 1: Empty list - do nothing
+            // 2: Single node: (previous is null)
+            // 3: Many nodes
+            //      a: node to remove is first node
+            //      b: node to remove is middle or last
+
+            while(current != null)
+            {
+                if (current.Value.Equals(item))
+                {
+                    if(previous != null)
+                    {
+                        previous.Next = current.Next;
+
+                        if (current.Next == null)
+                        {
+                            Tail = previous;
+                        }
+
+                        Count--;
+                    }
+                    else
+                    {
+                        // case 2 or 3a
+                        RemoveFirst(item);
+                    }
+                    return true;
+                }
+
+                previous = current;
+                current = current.Next;     
+            }
+
+            return false;
+
         }
 
         IEnumerator IEnumerable.GetEnumerator()
