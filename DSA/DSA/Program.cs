@@ -10,6 +10,9 @@ namespace DSA
     {
         static void Main(string[] args)
         {
+            Net.LinkedListCSharp.TestLinkedList();
+
+            Console.ReadLine();
         }
     }
 }

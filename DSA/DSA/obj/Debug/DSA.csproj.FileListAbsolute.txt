@@ -1,0 +1,7 @@
+C:\code\github\DSA_CSharp\DSA\DSA\bin\Debug\DSA.exe.config
+C:\code\github\DSA_CSharp\DSA\DSA\bin\Debug\DSA.exe
+C:\code\github\DSA_CSharp\DSA\DSA\bin\Debug\DSA.pdb
+C:\code\github\DSA_CSharp\DSA\DSA\obj\Debug\DSA.csprojResolveAssemblyReference.cache
+C:\code\github\DSA_CSharp\DSA\DSA\obj\Debug\DSA.csproj.CoreCompileInputs.cache
+C:\code\github\DSA_CSharp\DSA\DSA\obj\Debug\DSA.exe
+C:\code\github\DSA_CSharp\DSA\DSA\obj\Debug\DSA.pdb
