@@ -10,7 +10,9 @@ namespace DSA
     {
         static void Main(string[] args)
         {
-            Net.LinkedListCSharp.TestLinkedList();
+            string[] postFix = new string[] { "5", "6", "7", "*", "+", "1", "-" };
+            // Net.LinkedListCSharp.TestLinkedList();
+            Console.WriteLine(Stack.examples.PostFixCalculator.Evaluate(postFix));
 
             Console.ReadLine();
         }
