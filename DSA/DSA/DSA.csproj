@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include=".Net\LinkedListCSharp.cs" />
+    <Compile Include="BinaryTree\BinaryTree.cs" />
+    <Compile Include="BinaryTree\BinaryTreeNode.cs" />
+    <Compile Include="BinaryTree\exapmles\SortWords.cs" />
     <Compile Include="DoublyLinkedList\DoublyLinkedList.cs" />
     <Compile Include="DoublyLinkedList\DoublyLinkedListNode.cs" />
     <Compile Include="LikedList\LinkedList.cs" />
